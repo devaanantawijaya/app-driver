@@ -13,8 +13,8 @@
             "nomorHpWa": "081XXXXXXXXX"
           },
           "platNomor": "DK 1111 WA",
-          "koordinat": { "lat": -8.376664, "lng": 114.683039 },
-          "tanggal": "15-06-2025",
+          "koordinat": { "lat": -8.354143, "lng": 114.606607 },
+          "tanggal": "24-06-2025",
           "keberangkatan": [
             {
               "IsiRute": "GILIMANUK ⇨ DENPASAR",
@@ -43,8 +43,8 @@
             "nomorHpWa": "082XXXXXXXXX"
           },
           "platNomor": "DK 2222 WA",
-          "koordinat": { "lat": -8.391088, "lng": 114.751154 },
-          "tanggal": "15-06-2025",
+          "koordinat": { "lat": -8.347312, "lng": 114.575473 },
+          "tanggal": "24-06-2025",
           "keberangkatan": [
             {
               "IsiRute": "GILIMANUK ⇨ DENPASAR",
@@ -73,8 +73,8 @@
             "nomorHpWa": "083XXXXXXXXX"
           },
           "platNomor": "DK 3333 WA",
-          "koordinat": { "lat": -8.488818, "lng": 114.950944 },
-          "tanggal": "15-06-2025",
+          "koordinat": { "lat": -8.334739, "lng": 114.55364 },
+          "tanggal": "24-06-2025",
           "keberangkatan": [
             {
               "IsiRute": "GILIMANUK ⇨ DENPASAR",
@@ -103,8 +103,8 @@
             "nomorHpWa": "084XXXXXXXXX"
           },
           "platNomor": "DK 4444 WA",
-          "koordinat": { "lat": -8.36832, "lng": 114.66897 },
-          "tanggal": "15-06-2025",
+          "koordinat": { "lat": -8.330415, "lng": 114.548253 },
+          "tanggal": "24-06-2025",
           "keberangkatan": [
             {
               "IsiRute": "GILIMANUK ⇨ DENPASAR",
@@ -130,8 +130,8 @@
             "nomorHpWa": "085XXXXXXXXX"
           },
           "platNomor": "DK 5555 WA",
-          "koordinat": { "lat": -8.488818, "lng": 114.950944 },
-          "tanggal": "15-06-2025",
+          "koordinat": { "lat": -8.312851, "lng": 114.526217 },
+          "tanggal": "24-06-2025",
           "keberangkatan": [
             {
               "IsiRute": "GILIMANUK ⇨ DENPASAR",
@@ -218,7 +218,7 @@
         }
       ],
       "booking": {
-        "15-06-2025": {
+        "24-06-2025": {
           "medium+_31": {
             "GILIMANUK ⇨ DENPASAR": {
               "06:00": [1, 2, 3, 7, 12, 17],
@@ -242,7 +242,7 @@
             }
           }
         },
-        "16-06-2025": {
+        "25-06-2025": {
           "medium+_31": {
             "GILIMANUK ⇨ DENPASAR": {
               "06:00": [1, 2, 3, 7, 12, 17],
@@ -266,7 +266,7 @@
             }
           }
         },
-        "17-06-2025": {
+        "26-06-2025": {
           "medium+_31": {
             "GILIMANUK ⇨ DENPASAR": {
               "06:00": [1, 2, 3, 7, 12, 17],
@@ -282,303 +282,11 @@
           "medium_21": {
             "GILIMANUK ⇨ DENPASAR": {
               "07:30": [1, 2, 3, 5, 9, 13],
-              "08:00": [3, 5, 9, 13, 20, 21],
-              "08:30": [1, 2, 3, 7, 12, 17]
-            },
-            "DENPASAR ⇨ GILIMANUK": {
-              "13:00": [1, 2, 3, 7, 12, 17],
-              "13:30": [3, 5, 9, 13, 20, 21],
-              "14:00": [1, 2, 3, 5, 9, 13]
-            }
-          }
-        }
-      }
-    },
-    {
-      "nama_perusahaan": "PT. DHARMA",
-      "nama_bus": "Dharma",
-      "rute": ["GILIMANUK ⇄ DENPASAR"],
-      "bus": [
-        {
-          "jenisBus": "medium+",
-          "jumlahKursi": 27,
-          "driver": {
-            "nama": "Driver A",
-            "nomorHpWa": "086XXXXXXXXX"
-          },
-          "platNomor": "DK 1122 WA",
-          "koordinat": { "lat": -8.376664, "lng": 114.683039 },
-          "tanggal": "15-06-2025",
-          "keberangkatan": [
-            {
-              "IsiRute": "DENPASAR ⇨ GILIMANUK",
-              "start": "06:00",
-              "otw": true
-            }
-          ],
-          "denahKursi": [
-            [0, 0, 0, -1, -1],
-            [1, 2, 0, 3, 4],
-            [5, 6, 0, 7, 8],
-            [9, 10, 0, 11, 12],
-            [13, 14, 0, 15, 16],
-            [17, 18, 0, 19, 20],
-            [0, 0, 0, 21, 22],
-            [23, 24, 25, 26, 27]
-          ],
-          "kursiTerisi": [1, 2, 4, 7, 11, 15]
-        },
-        {
-          "jenisBus": "medium+",
-          "jumlahKursi": 27,
-          "driver": {
-            "nama": "Driver B",
-            "nomorHpWa": "087XXXXXXXXX"
-          },
-          "platNomor": "DK 3344 WA",
-          "koordinat": { "lat": -8.391088, "lng": 114.751154 },
-          "tanggal": "15-06-2025",
-          "keberangkatan": [
-            {
-              "IsiRute": "DENPASAR ⇨ GILIMANUK",
-              "start": "06:30",
-              "otw": true
-            }
-          ],
-          "denahKursi": [
-            [0, 0, 0, -1, -1],
-            [1, 2, 0, 3, 4],
-            [5, 6, 0, 7, 8],
-            [9, 10, 0, 11, 12],
-            [13, 14, 0, 15, 16],
-            [17, 18, 0, 19, 20],
-            [0, 0, 0, 21, 22],
-            [23, 24, 25, 26, 27]
-          ],
-          "kursiTerisi": [1, 2, 4, 7, 11, 15]
-        },
-        {
-          "jenisBus": "medium+",
-          "jumlahKursi": 27,
-          "driver": {
-            "nama": "Driver C",
-            "nomorHpWa": "088XXXXXXXXX"
-          },
-          "platNomor": "DK 5566 WA",
-          "koordinat": { "lat": -8.488818, "lng": 114.950944 },
-          "tanggal": "15-06-2025",
-          "keberangkatan": [
-            {
-              "IsiRute": "DENPASAR ⇨ GILIMANUK",
-              "start": "07:00",
-              "otw": true
-            }
-          ],
-          "denahKursi": [
-            [0, 0, 0, -1, -1],
-            [1, 2, 0, 3, 4],
-            [5, 6, 0, 7, 8],
-            [9, 10, 0, 11, 12],
-            [13, 14, 0, 15, 16],
-            [17, 18, 0, 19, 20],
-            [0, 0, 0, 21, 22],
-            [23, 24, 25, 26, 27]
-          ],
-          "kursiTerisi": [1, 2, 4, 7, 11, 15]
-        },
-        {
-          "jenisBus": "medium",
-          "jumlahKursi": 21,
-          "driver": {
-            "nama": "Driver D",
-            "nomorHpWa": "089XXXXXXXXX"
-          },
-          "platNomor": "DK 7788 WA",
-          "koordinat": { "lat": -8.488818, "lng": 114.950944 },
-          "tanggal": "15-06-2025",
-          "keberangkatan": [
-            {
-              "IsiRute": "DENPASAR ⇨ GILIMANUK",
-              "start": "07:30",
-              "otw": true
-            }
-          ],
-          "denahKursi": [
-            [1, 2, -1, -1],
-            [3, 0, 4, 5],
-            [0, 0, 6, 7],
-            [8, 0, 9, 10],
-            [11, 0, 12, 13],
-            [17, 18, 19, 20]
-          ],
-          "kursiTerisi": [1, 2, 4, 7, 11, 15]
-        },
-        {
-          "jenisBus": "medium",
-          "jumlahKursi": 21,
-          "driver": {
-            "nama": "Driver E",
-            "nomorHpWa": "080XXXXXXXXX"
-          },
-          "platNomor": "DK 9900 WA",
-          "koordinat": { "lat": -8.488818, "lng": 114.950944 },
-          "tanggal": "15-06-2025",
-          "keberangkatan": [
-            {
-              "IsiRute": "DENPASAR ⇨ GILIMANUK",
-              "start": "08:00",
-              "otw": true
-            }
-          ],
-          "denahKursi": [
-            [1, 2, -1, -1],
-            [3, 0, 4, 5],
-            [0, 0, 6, 7],
-            [8, 0, 9, 10],
-            [11, 0, 12, 13],
-            [17, 18, 19, 20]
-          ],
-          "kursiTerisi": [1, 2, 4, 7, 11, 15]
-        }
-      ],
-      "jadwalKeberangkatanPerHari": [
-        {
-          "mulaiDari": "DENPASAR ⇨ GILIMANUK",
-          "mulaiJam": ["06:00", "06:30", "07:00", "07:30", "08:00"]
-        },
-        {
-          "mulaiDari": "GILIMANUK ⇨ DENPASAR",
-          "mulaiJam": ["11:30", "12:00", "12:30", "13:00", "13:30"]
-        }
-      ],
-      "listBus": [
-        {
-          "jenisBus": "medium+",
-          "jumlahKursi": 27,
-          "platNomor": ["DK 1122 WA", "DK 3344 WA", "DK 5566 WA"],
-          "tarifPerKM": 400,
-          "fitur": ["AC", "Musik"],
-          "denahKursi": [
-            [0, 0, 0, -1, -1],
-            [1, 2, 0, 3, 4],
-            [5, 6, 0, 7, 8],
-            [9, 10, 0, 11, 12],
-            [13, 14, 0, 15, 16],
-            [17, 18, 0, 19, 20],
-            [0, 0, 0, 21, 22],
-            [23, 24, 25, 26, 27]
-          ]
-        },
-        {
-          "jenisBus": "medium",
-          "jumlahKursi": 21,
-          "platNomor": ["DK 7788 WA", "DK 9900 WA"],
-          "fitur": [],
-          "tarifPerKM": 400,
-          "denahKursi": [
-            [1, 2, -1, -1],
-            [3, 0, 4, 5],
-            [0, 0, 6, 7],
-            [8, 0, 9, 10],
-            [11, 0, 12, 13],
-            [17, 18, 19, 20]
-          ]
-        }
-      ],
-      "listDriver": [
-        {
-          "nama": "Driver A",
-          "nomorHpWa": "086XXXXXXXXX"
-        },
-        {
-          "nama": "Driver B",
-          "nomorHpWa": "087XXXXXXXXX"
-        },
-        {
-          "nama": "Driver C",
-          "nomorHpWa": "088XXXXXXXXX"
-        },
-        {
-          "nama": "Driver D",
-          "nomorHpWa": "089XXXXXXXXX"
-        },
-        {
-          "nama": "Driver E",
-          "nomorHpWa": "080XXXXXXXXX"
-        }
-      ],
-      "booking": {
-        "15-06-2025": {
-          "medium+_26": {
-            "DENPASAR ⇨ GILIMANUK": {
-              "06:00": [1, 2, 3, 7, 12, 17],
-              "06:30": [3, 5, 9, 13, 20, 22],
-              "07:00": [1, 2, 3, 5, 9, 13]
-            },
-            "GILIMANUK ⇨ DENPASAR": {
-              "11:30": [1, 2, 3, 5, 9, 13],
-              "12:00": [3, 5, 9, 13, 20, 22],
-              "12:30": [1, 2, 3, 7, 12, 17]
-            }
-          },
-          "medium_21": {
-            "DENPASAR ⇨ GILIMANUK": {
-              "07:30": [1, 2, 3, 5, 9, 13],
               "08:00": [3, 5, 9, 13, 20, 21]
             },
-            "GILIMANUK ⇨ DENPASAR": {
+            "DENPASAR ⇨ GILIMANUK": {
               "13:00": [1, 2, 3, 7, 12, 17],
               "13:30": [3, 5, 9, 13, 20, 21]
-            }
-          }
-        },
-        "16-06-2025": {
-          "medium+_26": {
-            "DENPASAR ⇨ GILIMANUK": {
-              "06:00": [1, 2, 3, 7, 12, 17],
-              "06:30": [3, 5, 9, 13, 20, 22],
-              "07:00": [1, 2, 3, 5, 9, 13]
-            },
-            "GILIMANUK ⇨ DENPASAR": {
-              "11:30": [1, 2, 3, 5, 9, 13],
-              "12:00": [3, 5, 9, 13, 20, 22],
-              "12:30": [1, 2, 3, 7, 12, 17]
-            }
-          },
-          "medium_21": {
-            "DENPASAR ⇨ GILIMANUK": {
-              "07:30": [1, 2, 3, 5, 9, 13],
-              "08:00": [3, 5, 9, 13, 20, 21]
-            },
-            "GILIMANUK ⇨ DENPASAR": {
-              "13:00": [1, 2, 3, 7, 12, 17],
-              "13:30": [3, 5, 9, 13, 20, 21]
-            }
-          }
-        },
-        "17-06-2025": {
-          "medium+_26": {
-            "DENPASAR ⇨ GILIMANUK": {
-              "06:00": [1, 2, 3, 7, 12, 17],
-              "06:30": [3, 5, 9, 13, 20, 22],
-              "07:00": [1, 2, 3, 5, 9, 13]
-            },
-            "GILIMANUK ⇨ DENPASAR": {
-              "11:30": [1, 2, 3, 5, 9, 13],
-              "12:00": [3, 5, 9, 13, 20, 22],
-              "12:30": [1, 2, 3, 7, 12, 17]
-            }
-          },
-          "medium_21": {
-            "DENPASAR ⇨ GILIMANUK": {
-              "07:30": [1, 2, 3, 5, 9, 13],
-              "08:00": [3, 5, 9, 13, 20, 21],
-              "08:30": [1, 2, 3, 7, 12, 17]
-            },
-            "GILIMANUK ⇨ DENPASAR": {
-              "13:00": [1, 2, 3, 7, 12, 17],
-              "13:30": [3, 5, 9, 13, 20, 21],
-              "14:00": [1, 2, 3, 5, 9, 13]
             }
           }
         }
@@ -597,8 +305,8 @@
             "nomorHpWa": "081XXXXXXXXX"
           },
           "platNomor": "DK 1111 ZZ",
-          "koordinat": { "lat": -8.388082, "lng": 114.715879 },
-          "tanggal": "15-06-2025",
+          "koordinat": { "lat": -8.376518, "lng": 114.682967 },
+          "tanggal": "24-06-2025",
           "keberangkatan": [
             {
               "IsiRute": "GILIMANUK ⇨ DENPASAR",
@@ -627,8 +335,8 @@
             "nomorHpWa": "082XXXXXXXXX"
           },
           "platNomor": "DK 2222 ZZ",
-          "koordinat": { "lat": -8.357368, "lng": 114.631019 },
-          "tanggal": "15-06-2025",
+          "koordinat": { "lat": -8.35761, "lng": 114.633432 },
+          "tanggal": "24-06-2025",
           "keberangkatan": [
             {
               "IsiRute": "GILIMANUK ⇨ DENPASAR",
@@ -657,8 +365,8 @@
             "nomorHpWa": "083XXXXXXXXX"
           },
           "platNomor": "DK 3333 ZZ",
-          "koordinat": { "lat": -8.488818, "lng": 114.950944 },
-          "tanggal": "15-06-2025",
+          "koordinat": { "lat": -8.350966, "lng": 114.59637 },
+          "tanggal": "24-06-2025",
           "keberangkatan": [
             {
               "IsiRute": "GILIMANUK ⇨ DENPASAR",
@@ -687,8 +395,8 @@
             "nomorHpWa": "084XXXXXXXXX"
           },
           "platNomor": "DK 4444 ZZ",
-          "koordinat": { "lat": -8.488818, "lng": 114.950944 },
-          "tanggal": "15-06-2025",
+          "koordinat": { "lat": -8.337702, "lng": 114.559656 },
+          "tanggal": "24-06-2025",
           "keberangkatan": [
             {
               "IsiRute": "GILIMANUK ⇨ DENPASAR",
@@ -714,8 +422,8 @@
             "nomorHpWa": "085XXXXXXXXX"
           },
           "platNomor": "DK 5555 ZZ",
-          "koordinat": { "lat": -8.488818, "lng": 114.950944 },
-          "tanggal": "15-06-2025",
+          "koordinat": { "lat": -8.320423, "lng": 114.531192 },
+          "tanggal": "24-06-2025",
           "keberangkatan": [
             {
               "IsiRute": "GILIMANUK ⇨ DENPASAR",
@@ -802,7 +510,7 @@
         }
       ],
       "booking": {
-        "15-06-2025": {
+        "24-06-2025": {
           "medium+_31": {
             "GILIMANUK ⇨ DENPASAR": {
               "06:00": [1, 2, 3, 7, 12, 17],
@@ -826,7 +534,7 @@
             }
           }
         },
-        "16-06-2025": {
+        "25-06-2025": {
           "medium+_31": {
             "GILIMANUK ⇨ DENPASAR": {
               "06:00": [1, 2, 3, 7, 12, 17],
@@ -850,7 +558,7 @@
             }
           }
         },
-        "17-06-2025": {
+        "26-06-2025": {
           "medium+_31": {
             "GILIMANUK ⇨ DENPASAR": {
               "06:00": [1, 2, 3, 7, 12, 17],
@@ -866,13 +574,587 @@
           "medium_21": {
             "GILIMANUK ⇨ DENPASAR": {
               "07:30": [1, 2, 3, 5, 9, 13],
-              "08:00": [3, 5, 9, 13, 20, 21],
-              "08.30": [1, 2, 3, 7, 12, 17]
+              "08:00": [3, 5, 9, 13, 20, 21]
             },
             "DENPASAR ⇨ GILIMANUK": {
               "13:00": [1, 2, 3, 7, 12, 17],
-              "13:30": [3, 5, 9, 13, 20, 21],
-              "14:00": [1, 2, 3, 5, 9, 13]
+              "13:30": [3, 5, 9, 13, 20, 21]
+            }
+          }
+        }
+      }
+    },
+    {
+      "nama_perusahaan": "PT. DHARMA",
+      "nama_bus": "Dharma",
+      "rute": ["GILIMANUK ⇄ DENPASAR"],
+      "bus": [
+        {
+          "jenisBus": "medium+",
+          "jumlahKursi": 27,
+          "driver": {
+            "nama": "Driver A",
+            "nomorHpWa": "086XXXXXXXXX"
+          },
+          "platNomor": "DK 1122 WA",
+          "koordinat": { "lat": -8.528371, "lng": 114.997115 },
+          "tanggal": "24-06-2025",
+          "keberangkatan": [
+            {
+              "IsiRute": "DENPASAR ⇨ GILIMANUK",
+              "start": "06:00",
+              "otw": true
+            }
+          ],
+          "denahKursi": [
+            [0, 0, 0, -1, -1],
+            [1, 2, 0, 3, 4],
+            [5, 6, 0, 7, 8],
+            [9, 10, 0, 11, 12],
+            [13, 14, 0, 15, 16],
+            [17, 18, 0, 19, 20],
+            [0, 0, 0, 21, 22],
+            [23, 24, 25, 26, 27]
+          ],
+          "kursiTerisi": [1, 2, 4, 7, 11, 15]
+        },
+        {
+          "jenisBus": "medium+",
+          "jumlahKursi": 27,
+          "driver": {
+            "nama": "Driver B",
+            "nomorHpWa": "087XXXXXXXXX"
+          },
+          "platNomor": "DK 3344 WA",
+          "koordinat": { "lat": -8.497942, "lng": 115.019657 },
+          "tanggal": "24-06-2025",
+          "keberangkatan": [
+            {
+              "IsiRute": "DENPASAR ⇨ GILIMANUK",
+              "start": "06:30",
+              "otw": true
+            }
+          ],
+          "denahKursi": [
+            [0, 0, 0, -1, -1],
+            [1, 2, 0, 3, 4],
+            [5, 6, 0, 7, 8],
+            [9, 10, 0, 11, 12],
+            [13, 14, 0, 15, 16],
+            [17, 18, 0, 19, 20],
+            [0, 0, 0, 21, 22],
+            [23, 24, 25, 26, 27]
+          ],
+          "kursiTerisi": [1, 2, 4, 7, 11, 15]
+        },
+        {
+          "jenisBus": "medium+",
+          "jumlahKursi": 27,
+          "driver": {
+            "nama": "Driver C",
+            "nomorHpWa": "088XXXXXXXXX"
+          },
+          "platNomor": "DK 5566 WA",
+          "koordinat": { "lat": -8.505081, "lng": 115.071728 },
+          "tanggal": "24-06-2025",
+          "keberangkatan": [
+            {
+              "IsiRute": "DENPASAR ⇨ GILIMANUK",
+              "start": "07:00",
+              "otw": true
+            }
+          ],
+          "denahKursi": [
+            [0, 0, 0, -1, -1],
+            [1, 2, 0, 3, 4],
+            [5, 6, 0, 7, 8],
+            [9, 10, 0, 11, 12],
+            [13, 14, 0, 15, 16],
+            [17, 18, 0, 19, 20],
+            [0, 0, 0, 21, 22],
+            [23, 24, 25, 26, 27]
+          ],
+          "kursiTerisi": [1, 2, 4, 7, 11, 15]
+        },
+        {
+          "jenisBus": "medium",
+          "jumlahKursi": 21,
+          "driver": {
+            "nama": "Driver D",
+            "nomorHpWa": "089XXXXXXXXX"
+          },
+          "platNomor": "DK 7788 WA",
+          "koordinat": { "lat": -8.576263, "lng": 115.178251 },
+          "tanggal": "24-06-2025",
+          "keberangkatan": [
+            {
+              "IsiRute": "DENPASAR ⇨ GILIMANUK",
+              "start": "07:30",
+              "otw": true
+            }
+          ],
+          "denahKursi": [
+            [1, 2, -1, -1],
+            [3, 0, 4, 5],
+            [0, 0, 6, 7],
+            [8, 0, 9, 10],
+            [11, 0, 12, 13],
+            [17, 18, 19, 20]
+          ],
+          "kursiTerisi": [1, 2, 4, 7, 11, 15]
+        },
+        {
+          "jenisBus": "medium",
+          "jumlahKursi": 21,
+          "driver": {
+            "nama": "Driver E",
+            "nomorHpWa": "080XXXXXXXXX"
+          },
+          "platNomor": "DK 9900 WA",
+          "koordinat": { "lat": -8.63263, "lng": 115.206406 },
+          "tanggal": "24-06-2025",
+          "keberangkatan": [
+            {
+              "IsiRute": "DENPASAR ⇨ GILIMANUK",
+              "start": "08:00",
+              "otw": true
+            }
+          ],
+          "denahKursi": [
+            [1, 2, -1, -1],
+            [3, 0, 4, 5],
+            [0, 0, 6, 7],
+            [8, 0, 9, 10],
+            [11, 0, 12, 13],
+            [17, 18, 19, 20]
+          ],
+          "kursiTerisi": [1, 2, 4, 7, 11, 15]
+        }
+      ],
+      "jadwalKeberangkatanPerHari": [
+        {
+          "mulaiDari": "DENPASAR ⇨ GILIMANUK",
+          "mulaiJam": ["06:00", "06:30", "07:00", "07:30", "08:00"]
+        },
+        {
+          "mulaiDari": "GILIMANUK ⇨ DENPASAR",
+          "mulaiJam": ["11:30", "12:00", "12:30", "13:00", "13:30"]
+        }
+      ],
+      "listBus": [
+        {
+          "jenisBus": "medium+",
+          "jumlahKursi": 27,
+          "platNomor": ["DK 1122 WA", "DK 3344 WA", "DK 5566 WA"],
+          "tarifPerKM": 400,
+          "fitur": ["AC", "Musik"],
+          "denahKursi": [
+            [0, 0, 0, -1, -1],
+            [1, 2, 0, 3, 4],
+            [5, 6, 0, 7, 8],
+            [9, 10, 0, 11, 12],
+            [13, 14, 0, 15, 16],
+            [17, 18, 0, 19, 20],
+            [0, 0, 0, 21, 22],
+            [23, 24, 25, 26, 27]
+          ]
+        },
+        {
+          "jenisBus": "medium",
+          "jumlahKursi": 21,
+          "platNomor": ["DK 7788 WA", "DK 9900 WA"],
+          "fitur": [],
+          "tarifPerKM": 400,
+          "denahKursi": [
+            [1, 2, -1, -1],
+            [3, 0, 4, 5],
+            [0, 0, 6, 7],
+            [8, 0, 9, 10],
+            [11, 0, 12, 13],
+            [17, 18, 19, 20]
+          ]
+        }
+      ],
+      "listDriver": [
+        {
+          "nama": "Driver A",
+          "nomorHpWa": "086XXXXXXXXX"
+        },
+        {
+          "nama": "Driver B",
+          "nomorHpWa": "087XXXXXXXXX"
+        },
+        {
+          "nama": "Driver C",
+          "nomorHpWa": "088XXXXXXXXX"
+        },
+        {
+          "nama": "Driver D",
+          "nomorHpWa": "089XXXXXXXXX"
+        },
+        {
+          "nama": "Driver E",
+          "nomorHpWa": "080XXXXXXXXX"
+        }
+      ],
+      "booking": {
+        "24-06-2025": {
+          "medium+_26": {
+            "DENPASAR ⇨ GILIMANUK": {
+              "06:00": [1, 2, 3, 7, 12, 17],
+              "06:30": [3, 5, 9, 13, 20, 22],
+              "07:00": [1, 2, 3, 5, 9, 13]
+            },
+            "GILIMANUK ⇨ DENPASAR": {
+              "11:30": [1, 2, 3, 5, 9, 13],
+              "12:00": [3, 5, 9, 13, 20, 22],
+              "12:30": [1, 2, 3, 7, 12, 17]
+            }
+          },
+          "medium_21": {
+            "DENPASAR ⇨ GILIMANUK": {
+              "07:30": [1, 2, 3, 5, 9, 13],
+              "08:00": [3, 5, 9, 13, 20, 21]
+            },
+            "GILIMANUK ⇨ DENPASAR": {
+              "13:00": [1, 2, 3, 7, 12, 17],
+              "13:30": [3, 5, 9, 13, 20, 21]
+            }
+          }
+        },
+        "25-06-2025": {
+          "medium+_26": {
+            "DENPASAR ⇨ GILIMANUK": {
+              "06:00": [1, 2, 3, 7, 12, 17],
+              "06:30": [3, 5, 9, 13, 20, 22],
+              "07:00": [1, 2, 3, 5, 9, 13]
+            },
+            "GILIMANUK ⇨ DENPASAR": {
+              "11:30": [1, 2, 3, 5, 9, 13],
+              "12:00": [3, 5, 9, 13, 20, 22],
+              "12:30": [1, 2, 3, 7, 12, 17]
+            }
+          },
+          "medium_21": {
+            "DENPASAR ⇨ GILIMANUK": {
+              "07:30": [1, 2, 3, 5, 9, 13],
+              "08:00": [3, 5, 9, 13, 20, 21]
+            },
+            "GILIMANUK ⇨ DENPASAR": {
+              "13:00": [1, 2, 3, 7, 12, 17],
+              "13:30": [3, 5, 9, 13, 20, 21]
+            }
+          }
+        },
+        "26-06-2025": {
+          "medium+_26": {
+            "DENPASAR ⇨ GILIMANUK": {
+              "06:00": [1, 2, 3, 7, 12, 17],
+              "06:30": [3, 5, 9, 13, 20, 22],
+              "07:00": [1, 2, 3, 5, 9, 13]
+            },
+            "GILIMANUK ⇨ DENPASAR": {
+              "11:30": [1, 2, 3, 5, 9, 13],
+              "12:00": [3, 5, 9, 13, 20, 22],
+              "12:30": [1, 2, 3, 7, 12, 17]
+            }
+          },
+          "medium_21": {
+            "DENPASAR ⇨ GILIMANUK": {
+              "07:30": [1, 2, 3, 5, 9, 13],
+              "08:00": [3, 5, 9, 13, 20, 21]
+            },
+            "GILIMANUK ⇨ DENPASAR": {
+              "13:00": [1, 2, 3, 7, 12, 17],
+              "13:30": [3, 5, 9, 13, 20, 21]
+            }
+          }
+        }
+      }
+    },
+    {
+      "nama_perusahaan": "PT. YUSA DARMADI",
+      "nama_bus": "Yusa",
+      "rute": ["GILIMANUK ⇄ DENPASAR"],
+      "bus": [
+        {
+          "jenisBus": "medium+",
+          "jumlahKursi": 27,
+          "driver": {
+            "nama": "Driver A",
+            "nomorHpWa": "086XXXXXXXXX"
+          },
+          "platNomor": "DK 1234 WA",
+          "koordinat": { "lat": -8.485232, "lng": 114.944975 },
+          "tanggal": "24-06-2025",
+          "keberangkatan": [
+            {
+              "IsiRute": "DENPASAR ⇨ GILIMANUK",
+              "start": "05:00",
+              "otw": true
+            }
+          ],
+          "denahKursi": [
+            [0, 0, 0, -1, -1],
+            [1, 2, 0, 3, 4],
+            [5, 6, 0, 7, 8],
+            [9, 10, 0, 11, 12],
+            [13, 14, 0, 15, 16],
+            [17, 18, 0, 19, 20],
+            [0, 0, 0, 21, 22],
+            [23, 24, 25, 26, 27]
+          ],
+          "kursiTerisi": [1, 2, 4, 7, 11, 15]
+        },
+        {
+          "jenisBus": "medium+",
+          "jumlahKursi": 27,
+          "driver": {
+            "nama": "Driver B",
+            "nomorHpWa": "087XXXXXXXXX"
+          },
+          "platNomor": "DK 3456 WA",
+          "koordinat": { "lat": -8.501489, "lng": 115.024794 },
+          "tanggal": "24-06-2025",
+          "keberangkatan": [
+            {
+              "IsiRute": "DENPASAR ⇨ GILIMANUK",
+              "start": "05:30",
+              "otw": true
+            }
+          ],
+          "denahKursi": [
+            [0, 0, 0, -1, -1],
+            [1, 2, 0, 3, 4],
+            [5, 6, 0, 7, 8],
+            [9, 10, 0, 11, 12],
+            [13, 14, 0, 15, 16],
+            [17, 18, 0, 19, 20],
+            [0, 0, 0, 21, 22],
+            [23, 24, 25, 26, 27]
+          ],
+          "kursiTerisi": [1, 2, 4, 7, 11, 15]
+        },
+        {
+          "jenisBus": "medium+",
+          "jumlahKursi": 27,
+          "driver": {
+            "nama": "Driver C",
+            "nomorHpWa": "088XXXXXXXXX"
+          },
+          "platNomor": "DK 7890 WA",
+          "koordinat": { "lat": -8.52118, "lng": 115.096808 },
+          "tanggal": "24-06-2025",
+          "keberangkatan": [
+            {
+              "IsiRute": "DENPASAR ⇨ GILIMANUK",
+              "start": "06:00",
+              "otw": true
+            }
+          ],
+          "denahKursi": [
+            [0, 0, 0, -1, -1],
+            [1, 2, 0, 3, 4],
+            [5, 6, 0, 7, 8],
+            [9, 10, 0, 11, 12],
+            [13, 14, 0, 15, 16],
+            [17, 18, 0, 19, 20],
+            [0, 0, 0, 21, 22],
+            [23, 24, 25, 26, 27]
+          ],
+          "kursiTerisi": [1, 2, 4, 7, 11, 15]
+        },
+        {
+          "jenisBus": "medium",
+          "jumlahKursi": 21,
+          "driver": {
+            "nama": "Driver D",
+            "nomorHpWa": "089XXXXXXXXX"
+          },
+          "platNomor": "DK 1324 WA",
+          "koordinat": { "lat": -8.563232, "lng": 115.16702 },
+          "tanggal": "24-06-2025",
+          "keberangkatan": [
+            {
+              "IsiRute": "DENPASAR ⇨ GILIMANUK",
+              "start": "06:30",
+              "otw": true
+            }
+          ],
+          "denahKursi": [
+            [1, 2, -1, -1],
+            [3, 0, 4, 5],
+            [0, 0, 6, 7],
+            [8, 0, 9, 10],
+            [11, 0, 12, 13],
+            [17, 18, 19, 20]
+          ],
+          "kursiTerisi": [1, 2, 4, 7, 11, 15]
+        },
+        {
+          "jenisBus": "medium",
+          "jumlahKursi": 21,
+          "driver": {
+            "nama": "Driver E",
+            "nomorHpWa": "080XXXXXXXXX"
+          },
+          "platNomor": "DK 5768 WA",
+          "koordinat": { "lat": -8.617013, "lng": 115.194973 },
+          "tanggal": "24-06-2025",
+          "keberangkatan": [
+            {
+              "IsiRute": "DENPASAR ⇨ GILIMANUK",
+              "start": "07:00",
+              "otw": true
+            }
+          ],
+          "denahKursi": [
+            [1, 2, -1, -1],
+            [3, 0, 4, 5],
+            [0, 0, 6, 7],
+            [8, 0, 9, 10],
+            [11, 0, 12, 13],
+            [17, 18, 19, 20]
+          ],
+          "kursiTerisi": [1, 2, 4, 7, 11, 15]
+        }
+      ],
+      "jadwalKeberangkatanPerHari": [
+        {
+          "mulaiDari": "DENPASAR ⇨ GILIMANUK",
+          "mulaiJam": ["05:00", "05:30", "06:00", "06:30", "07:00"]
+        },
+        {
+          "mulaiDari": "GILIMANUK ⇨ DENPASAR",
+          "mulaiJam": ["11:30", "12:00", "12:30", "13:00", "13:30"]
+        }
+      ],
+      "listBus": [
+        {
+          "jenisBus": "medium+",
+          "jumlahKursi": 27,
+          "platNomor": ["DK 1234 WA", "DK 3456 WA", "DK 7890 WA"],
+          "tarifPerKM": 400,
+          "fitur": ["AC", "Musik"],
+          "denahKursi": [
+            [0, 0, 0, -1, -1],
+            [1, 2, 0, 3, 4],
+            [5, 6, 0, 7, 8],
+            [9, 10, 0, 11, 12],
+            [13, 14, 0, 15, 16],
+            [17, 18, 0, 19, 20],
+            [0, 0, 0, 21, 22],
+            [23, 24, 25, 26, 27]
+          ]
+        },
+        {
+          "jenisBus": "medium",
+          "jumlahKursi": 21,
+          "platNomor": ["DK 1324 WA", "DK 5768 WA"],
+          "fitur": [],
+          "tarifPerKM": 400,
+          "denahKursi": [
+            [1, 2, -1, -1],
+            [3, 0, 4, 5],
+            [0, 0, 6, 7],
+            [8, 0, 9, 10],
+            [11, 0, 12, 13],
+            [17, 18, 19, 20]
+          ]
+        }
+      ],
+      "listDriver": [
+        {
+          "nama": "Driver A",
+          "nomorHpWa": "086XXXXXXXXX"
+        },
+        {
+          "nama": "Driver B",
+          "nomorHpWa": "087XXXXXXXXX"
+        },
+        {
+          "nama": "Driver C",
+          "nomorHpWa": "088XXXXXXXXX"
+        },
+        {
+          "nama": "Driver D",
+          "nomorHpWa": "089XXXXXXXXX"
+        },
+        {
+          "nama": "Driver E",
+          "nomorHpWa": "080XXXXXXXXX"
+        }
+      ],
+      "booking": {
+        "24-06-2025": {
+          "medium+_26": {
+            "DENPASAR ⇨ GILIMANUK": {
+              "05:00": [1, 2, 3, 7, 12, 17],
+              "05:30": [3, 5, 9, 13, 20, 22],
+              "06:00": [1, 2, 3, 5, 9, 13]
+            },
+            "GILIMANUK ⇨ DENPASAR": {
+              "11:30": [1, 2, 3, 5, 9, 13],
+              "12:00": [3, 5, 9, 13, 20, 22],
+              "12:30": [1, 2, 3, 7, 12, 17]
+            }
+          },
+          "medium_21": {
+            "DENPASAR ⇨ GILIMANUK": {
+              "06:30": [1, 2, 3, 5, 9, 13],
+              "07:00": [3, 5, 9, 13, 20, 21]
+            },
+            "GILIMANUK ⇨ DENPASAR": {
+              "13:00": [1, 2, 3, 7, 12, 17],
+              "13:30": [3, 5, 9, 13, 20, 21]
+            }
+          }
+        },
+        "25-06-2025": {
+          "medium+_26": {
+            "DENPASAR ⇨ GILIMANUK": {
+              "05:00": [1, 2, 3, 7, 12, 17],
+              "05:30": [3, 5, 9, 13, 20, 22],
+              "06:00": [1, 2, 3, 5, 9, 13]
+            },
+            "GILIMANUK ⇨ DENPASAR": {
+              "11:30": [1, 2, 3, 5, 9, 13],
+              "12:00": [3, 5, 9, 13, 20, 22],
+              "12:30": [1, 2, 3, 7, 12, 17]
+            }
+          },
+          "medium_21": {
+            "DENPASAR ⇨ GILIMANUK": {
+              "06:30": [1, 2, 3, 5, 9, 13],
+              "07:00": [3, 5, 9, 13, 20, 21]
+            },
+            "GILIMANUK ⇨ DENPASAR": {
+              "13:00": [1, 2, 3, 7, 12, 17],
+              "13:30": [3, 5, 9, 13, 20, 21]
+            }
+          }
+        },
+        "26-06-2025": {
+          "medium+_26": {
+            "DENPASAR ⇨ GILIMANUK": {
+              "05:00": [1, 2, 3, 7, 12, 17],
+              "05:30": [3, 5, 9, 13, 20, 22],
+              "06:00": [1, 2, 3, 5, 9, 13]
+            },
+            "GILIMANUK ⇨ DENPASAR": {
+              "11:30": [1, 2, 3, 5, 9, 13],
+              "12:00": [3, 5, 9, 13, 20, 22],
+              "12:30": [1, 2, 3, 7, 12, 17]
+            }
+          },
+          "medium_21": {
+            "DENPASAR ⇨ GILIMANUK": {
+              "06:30": [1, 2, 3, 5, 9, 13],
+              "07:00": [3, 5, 9, 13, 20, 21]
+            },
+            "GILIMANUK ⇨ DENPASAR": {
+              "13:00": [1, 2, 3, 7, 12, 17],
+              "13:30": [3, 5, 9, 13, 20, 21]
             }
           }
         }

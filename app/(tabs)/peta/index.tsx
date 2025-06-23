@@ -7,6 +7,18 @@ const route = [
   { lat: -8.357526, lng: 114.631704 },
   { lat: -8.357704, lng: 114.633592 },
   { lat: -8.358118, lng: 114.634967 },
+  { lat: -8.358713, lng: 114.636694 },
+  { lat: -8.359358, lng: 114.638631 },
+  { lat: -8.360343, lng: 114.641347 },
+  { lat: -8.361059, lng: 114.643646 },
+  { lat: -8.361614, lng: 114.645782 },
+  { lat: -8.362134, lng: 114.647713 },
+  { lat: -8.362601, lng: 114.649509 },
+  { lat: -8.362886, lng: 114.650374 },
+  { lat: -8.363236, lng: 114.651494 },
+  { lat: -8.363585, lng: 114.652662 },
+  { lat: -8.364118, lng: 114.654331 },
+  { lat: -8.364559, lng: 114.655810 },
 ];
 
 export default function Peta() {
@@ -22,7 +34,7 @@ export default function Peta() {
 
       const timeout = setTimeout(() => {
         setIndex(index + 1);
-      }, 2000);
+      }, 800);
 
       return () => clearTimeout(timeout);
     }
@@ -97,7 +109,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   arrow: {
-    fontSize: 40,
+    fontSize: 50,
     color: "blue",
   },
 });

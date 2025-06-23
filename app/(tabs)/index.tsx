@@ -3,6 +3,7 @@ import PopUpBus from "@/components/PopUpDenahKursi";
 import { useColorScheme } from "@/hooks/useColorScheme";
 import { useTheme } from "@react-navigation/native";
 import dayjs from "dayjs";
+import { useRouter } from "expo-router";
 import { useState } from "react";
 import {
   Modal,
@@ -37,6 +38,7 @@ export default function HomeScreen() {
   // Custom Hook
   const { colors } = useTheme();
   const colorScheme = useColorScheme();
+  const router = useRouter();
 
   // useState untuk tanggal yang dipilih
   const [selectedDate, setSelectedDate] = useState<string>(
@@ -46,7 +48,9 @@ export default function HomeScreen() {
   const [expandedRoute, setExpandedRoute] = useState(null);
   const [selectedTime, setSelectedTime] = useState<string | null>(null);
   const [selectedSeats, setSelectedSeats] = useState([]);
+  const [selectedPlatNomor, setSelectedPlatNomor] = useState<string | null>("");
   const [popUp, setPopUp] = useState(false);
+  const [busJalan, setBusJalan] = useState(false);
 
   // Const/Let
   const selectJenisBus = selectedJenisBus?.split("_")[0] || null;
@@ -84,7 +88,7 @@ export default function HomeScreen() {
     setExpandedRoute((prev) => (prev === route ? null : route));
   };
   const handleSelectTime = (route: any, time: any) => {
-    setSelectedTime(`${route}_${time}`);
+    setSelectedTime(time);
     setSelectedSeats(filteredBookingByJenisBus[route][time]);
   };
 
@@ -200,7 +204,7 @@ export default function HomeScreen() {
       <Text style={[{ color: colors.text, marginTop: 10 }]}>
         Pilih Rute & Waktu Berangkat:
       </Text>
-      <View style={{ marginTop: 8 }}>
+      <View style={{ marginBottom: 10 }}>
         {filteredBookingByJenisBus ? (
           <View>
             {Object.entries(filteredBookingByJenisBus).map(([route, times]) => (
@@ -222,7 +226,7 @@ export default function HomeScreen() {
 
                 {expandedRoute === route &&
                   Object.entries(times ?? {}).map(([time, seats]) => {
-                    const isSelected = selectedTime === `${route}_${time}`;
+                    const isSelected = selectedTime === time;
                     return (
                       <TouchableOpacity
                         key={time}
@@ -265,17 +269,74 @@ export default function HomeScreen() {
           </View>
         ) : (
           <View>
-            <Text style={[{ color: colors.text, textAlign: "center" }]}>
-              -- Tanggal dan Jenis Belum Dipilih --
+            <Text
+              style={[
+                { color: colors.text, textAlign: "center", marginTop: 10 },
+              ]}
+            >
+              -- Jenis Bus Belum Dipilih --
             </Text>
           </View>
         )}
       </View>
 
-      {/* Hanya Info Kursi */}
-      <Text style={styles.selectedInfo}>
-        Kursi terbooking: {selectedSeats.join(", ") || "-"}
-      </Text>
+      {/* Pilih Bus */}
+      <Text style={[{ color: colors.text }]}>Pilih Bus:</Text>
+      <View style={{ marginBottom: 10 }}>
+        {viewPlatNomor ? (
+          <View
+            style={{
+              flexDirection: "row",
+              flexWrap: "wrap", // <- penting untuk multi-baris
+              justifyContent: "space-between",
+              marginTop: 10,
+            }}
+          >
+            {viewPlatNomor?.map((plat, index) => (
+              <Pressable
+                key={index}
+                style={{
+                  width: "48%",
+                  backgroundColor:
+                    selectedPlatNomor === plat ? "#35F9D1" : "#25b498",
+                  padding: 10,
+                  borderRadius: 5,
+                  marginBottom: 10,
+                  borderColor:
+                    selectedPlatNomor === plat
+                      ? colorScheme === "dark"
+                        ? "white"
+                        : "#1A443B"
+                      : "#25b498",
+                  borderWidth: 2,
+                }}
+                onPress={() => setSelectedPlatNomor(plat)}
+              >
+                <Text
+                  style={{
+                    fontSize: 16,
+                    textAlign: "center",
+                    fontWeight: "bold",
+                    color: "#1A443B",
+                  }}
+                >
+                  {plat}
+                </Text>
+              </Pressable>
+            ))}
+          </View>
+        ) : (
+          <View>
+            <Text
+              style={[
+                { color: colors.text, textAlign: "center", marginTop: 10 },
+              ]}
+            >
+              -- Jenis Bus Belum Dipilih --
+            </Text>
+          </View>
+        )}
+      </View>
 
       {/* Pop Up Kursi */}
       <PopUpBus
@@ -285,6 +346,65 @@ export default function HomeScreen() {
         viewDenahKursi={viewDenahKursi}
         viewFiturBus={viewFiturBus}
       />
+
+      {/* Button Jalan Bus/Stop Bus */}
+      <Pressable
+        style={{
+          marginTop: 10,
+          backgroundColor:
+            selectedDate && selectJenisBus && selectedTime && selectedPlatNomor
+              ? "#35F9D1"
+              : "#25b498",
+          borderRadius: 5,
+          borderColor:
+            selectedDate && selectJenisBus && selectedTime && selectedPlatNomor
+              ? colorScheme === "dark"
+                ? "white"
+                : "#1A443B"
+              : "#25b498",
+          borderWidth: 2,
+        }}
+        onPress={() => {
+          setBusJalan(!busJalan);
+          !busJalan && router.push("/peta");
+        }}
+        disabled={
+          !selectedDate ||
+          !selectJenisBus ||
+          !selectedTime ||
+          !selectedPlatNomor
+        }
+      >
+        {busJalan ? (
+          <Text
+            style={[
+              {
+                textAlign: "center",
+                color: "#1A443B",
+                fontWeight: "900",
+                padding: 10,
+                fontSize: 16,
+              },
+            ]}
+          >
+            BUS STOP
+          </Text>
+        ) : (
+          <Text
+            style={[
+              {
+                textAlign: "center",
+                color: "#1A443B",
+                fontWeight: "900",
+                padding: 10,
+                fontSize: 16,
+              },
+            ]}
+          >
+            BUS JALAN
+          </Text>
+        )}
+      </Pressable>
     </View>
   );
 }
@@ -292,7 +412,7 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: { paddingTop: 50, paddingLeft: 30, paddingRight: 30 },
   routeContainer: {
-    marginBottom: 20,
+    marginTop: 10,
     backgroundColor: "#35F9D1",
     borderRadius: 5,
     padding: 10,
